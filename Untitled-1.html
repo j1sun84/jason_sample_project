@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website with Photo</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: #f3db04;
+            color: rgb(147, 5, 241);
+            text-align: center;
+            padding: 25px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #8705f1;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li a {
+            color: rgb(255, 230, 0);
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        /* Main Content */
+        main {
+            padding: 30px;
+            text-align: center;
+        }
+
+        /* Image Section */
+        .photo-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 700px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .photo-container img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>You are my sunshine</h1>
+        <p>LOLOBRON</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <div class="photo-container">
+            <h2>LEBONBON</h2>
+
+            <!-- Replace image.jpg with your image file -->
+            <img src="images.jpg" alt="My Photo">
+
+            <p>
+                LEBONBON
+            </p>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Website</p>
+    </footer>
+
+</body>
+</html>
